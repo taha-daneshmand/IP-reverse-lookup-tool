@@ -57,13 +57,13 @@ This script uses Ruby's standard libraries, so no additional gems are required.
 Replace `Your-Api-Key-Here` in the script with your actual ViewDNS API key.
 
 ```bash
-ruby reverse_lookup.rb --all 192.168.1.1
+ruby main.rb --all 192.168.1.1
 ```
 
 ### Without Listing Other Websites
 
 ```bash
-ruby reverse_lookup.rb 192.168.1.1
+ruby main.rb 192.168.1.1
 ```
 
 ## Examples
@@ -71,7 +71,7 @@ ruby reverse_lookup.rb 192.168.1.1
 ### Example 1: Basic Usage
 
 ```bash
-ruby reverse_lookup.rb 192.168.1.1
+ruby main.rb 192.168.1.1
 ```
 
 Output:
@@ -82,7 +82,7 @@ Output:
 ### Example 2: Detailed Output with Other Websites
 
 ```bash
-ruby reverse_lookup.rb --all 192.168.1.1
+ruby main.rb --all 192.168.1.1
 ```
 
 Output:
